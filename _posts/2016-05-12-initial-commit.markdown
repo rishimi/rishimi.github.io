@@ -25,7 +25,7 @@ Get to know me via this blog and &nbsp; &nbsp; &nbsp;<a href="http://facebook.co
     (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
         var d = document, s = d.createElement('script');
         
-        s.src = '//EXAMPLE.disqus.com/embed.js';  // IMPORTANT: Replace EXAMPLE with your forum shortname!
+        s.src = '//rishi-blog.disqus.com/embed.js';  // IMPORTANT: Replace EXAMPLE with your forum shortname!
         
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
