@@ -16,7 +16,7 @@ permalink: /about/
       <br />
       <br />
       <br />
-      <center><a href="http://facebook.com/rishi25m"><i class="fa fa-facebook"></i></a> &nbsp; &nbsp; &nbsp;<a href="http://github.com/rishimi"><i class="fa fa-github"></i></a>&nbsp; &nbsp; &nbsp;</center>
+      <center><a href="http://facebook.com/rishi25m"><i class="fa fa-facebook"></i></a> &nbsp; &nbsp; &nbsp;<a href="http://github.com/rishimi"><i class="fa fa-github"></i></a>&nbsp; &nbsp; &nbsp;<a href="https://in.linkedin.com/in/rishi-mishra-52bb5463"><i class="fa fa-linkedin"></i></a></center>
 
     </p>
 
