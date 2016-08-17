@@ -1,40 +1,44 @@
-<html>
-	<style type="text/css">
-		#cen {
-			color:white;
-		}
-		
-	</style>
-	<title>
-		Rishi Mishra
-	</title>
-	<div id="cen">
-	
-	<body bgcolor = #000000>
+---
+layout: default
+---
 
+<section>
+  <div class="jumbotron">
+    <div class="container">
+      {{site.description}}
 
-		<h1 style = "">
-			Rishi Mishra
-		</h1>	
-		<address>Software Developer & Engineer<br/>
-			Directi (media.net)<br/>
-			Directiplex, Andheri Subway<br/>
-			Andheri (E), Mumbai (400096)
-					</address>
-		email : rishi25m@gmail.com	
-		
-		<br/><br/><br/><br/><br/><br/>
+    </div>
 
-		<a href ="RishiMishra.pdf" style="color:white;font-size:20" target = " a"> Resume</a>
-		
+</div>
+</section>
 
-		<!-- <iframe style="width:100%;height:100%;overflow:auto" name="myiframe" id="myiframe" onLoad="myscript()" src="demo.html">IFrame is not supported</iframe> -->
-		
+<section id="page-content">
+  <div class="container">
+    <div class="post-list">
+  {%  for post in site.posts %}
+  <div class="post-box">
+    <div class="post-title">
+    <a class="post-title" href="{{post.url | prepend:site.baseurl }}" > {{ post.title }}</a>
+    </div>
+    <div class="post-excerpt">
+      {{ post.content | strip_html | truncatewords:20}}
+    </div>
+    <div class="posted">
+      posted on
+      <span class="posted-on">
 
-		<!-- <script type="text/javascript" src ="myscript.js" ></script> -->
-	</body>
-	
-	
-	</div>
-
-<html>
+        {{ post.date | date: "%A, %B %-d, %Y" }}
+      </span>
+      <span class="in">
+        in
+      </span>
+      <span class="categories-on">
+        {% for category in post.categories%}
+        {{category}} &nbsp;{% if forloop.last %}{% else %},{% endif %}
+        {% endfor %}
+      </span>
+    </div>
+  </div>
+  {% endfor %}
+  </div>
+</section>
