@@ -6,7 +6,7 @@ permalink: /about/
 <p>  <div class="manual-content">
 <br />
     <p> 
-      Hello there! :)
+      Hello there! 
       <br />
       <br /> Rishi here.
       <br /> Currently I'm an SDE at Directi working under its contextual advertising division <a href="http://www.media.net/">media.net</a>.
